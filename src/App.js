@@ -6,7 +6,7 @@ import NewDx from "./Pages/NewDx";
 import History from "./Pages/History";
 import NewPass from "./Pages/NewPass";
 import Sign from "./Pages/Sign";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [user, setUser] = useState(localStorage.getItem("name"));
