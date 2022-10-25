@@ -1,0 +1,20 @@
+#sym-Sel {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.selection {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 800px;
+}
+.dxList form div {
+  margin: 10px 0;
+}
+.symList {
+  margin-left: 15px;
+}
+.symList li {
+  margin: 10px 0;
+}

@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  height: 100vh;
+  min-width: 200px;
+  justify-content: space-around;
+  padding: 10px 10px 50px 10px;
+}
+.navLeft {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.navLeft img {
+  width: 100px;
+}
+.navRight {
+  flex: 1;
+}
+.navList {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+.navList a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
