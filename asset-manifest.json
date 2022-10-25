@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Diagnostic/static/css/main.015d02b3.css",
+    "main.js": "/Diagnostic/static/js/main.68b6209c.js",
+    "static/media/logo.png": "/Diagnostic/static/media/logo.5a598cb5e4c67e2ea140.png",
+    "index.html": "/Diagnostic/index.html",
+    "main.015d02b3.css.map": "/Diagnostic/static/css/main.015d02b3.css.map",
+    "main.68b6209c.js.map": "/Diagnostic/static/js/main.68b6209c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.015d02b3.css",
+    "static/js/main.68b6209c.js"
+  ]
+}
