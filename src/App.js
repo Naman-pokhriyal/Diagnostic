@@ -18,10 +18,10 @@ function App() {
         <HashRouter>
           <Navbar />
           <Routes>
-            <Route index element={<Home />} />
-            <Route path="/Diagnosis/newdx" element={<NewDx />} />
-            <Route path="/Diagnosis/history" element={<History />} />
-            <Route path="/Diagnosis/newPass" element={<NewPass />} />
+            <Route index element={Home} />
+            <Route path="/newdx" element={<NewDx />} />
+            <Route path="/history" element={<History />} />
+            <Route path="/newPass" element={<NewPass />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </HashRouter>

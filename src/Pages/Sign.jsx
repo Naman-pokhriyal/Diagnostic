@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./sign.css";
 
 export function Sign() {
@@ -72,8 +72,8 @@ export default function Logging() {
     <Router>
       <Routes>
         <Route index element={<Sign />} />
-        <Route index path="/Diagnosis/sign" element={<Sign />} />
-        <Route path="/Diagnosis/register" element={<Register />} />
+        <Route index path="/sign" element={<Sign />} />
+        <Route path="/register" element={<Register />} />
         <Route index path="/*" element={<Sign />} />
       </Routes>
     </Router>
