@@ -6,7 +6,7 @@ import NewDx from "./Pages/NewDx";
 import History from "./Pages/History";
 import NewPass from "./Pages/NewPass";
 import Sign from "./Pages/Sign";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [user, setUser] = useState(localStorage.getItem("name"));
@@ -15,16 +15,16 @@ function App() {
   return (
     <>
       {user ? (
-        <Router>
+        <HashRouter>
           <Navbar />
           <Routes>
             <Route index element={<Home />} />
-            <Route path="/newdx" element={<NewDx />} />
-            <Route path="/history" element={<History />} />
-            <Route path="/newPass" element={<NewPass />} />
+            <Route path="/Diagnosis/newdx" element={<NewDx />} />
+            <Route path="/Diagnosis/history" element={<History />} />
+            <Route path="/Diagnosis/newPass" element={<NewPass />} />
             <Route path="*" element={<Home />} />
           </Routes>
-        </Router>
+        </HashRouter>
       ) : (
         <Sign />
       )}
